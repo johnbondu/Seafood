@@ -1,0 +1,2238 @@
+/*==================================================
+        HERO RESPONSIVE - LAPTOP
+==================================================*/
+
+@media (max-width:1200px){
+
+    .hero-card{
+
+        width:min(650px,92%);
+
+        padding:50px;
+
+    }
+
+    .hero-card h1{
+
+        font-size:clamp(2.8rem,5vw,4rem);
+
+    }
+
+    .hero-card p{
+
+        font-size:1.05rem;
+
+    }
+
+    .hero-trust-panel{
+
+        width:95%;
+
+        padding:18px 22px;
+
+    }
+
+    .trust-item span{
+
+        font-size:.9rem;
+
+    }
+
+}
+
+/*==================================================
+            HERO RESPONSIVE - TABLET
+==================================================*/
+
+@media (max-width:992px){
+
+    .hero{
+
+        height:95vh;
+
+    }
+
+    .hero-card{
+
+        width:90%;
+
+        padding:45px 35px;
+
+    }
+
+    .hero-card h1{
+
+        font-size:3rem;
+
+    }
+
+    .hero-card p{
+
+        font-size:1rem;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:260px;
+
+    }
+
+    .heroSwiper .swiper-button-prev,
+    .heroSwiper .swiper-button-next{
+
+        display:none;
+
+    }
+
+    .hero-trust-panel{
+
+        position:relative;
+
+        bottom:auto;
+
+        left:auto;
+
+        transform:none;
+
+        margin:40px auto 0;
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+        gap:20px;
+
+        border-radius:20px;
+
+    }
+
+    .trust-divider{
+
+        display:none;
+
+    }
+
+}
+
+/*==================================================
+            HERO RESPONSIVE - MOBILE
+==================================================*/
+
+@media (max-width:768px){
+
+    .hero{
+
+        height:90vh;
+
+    }
+
+    .hero-overlay{
+
+        background:
+        linear-gradient(
+            rgba(0,0,0,.60),
+            rgba(0,0,0,.55)
+        );
+
+    }
+
+    .hero-card{
+
+        width:94%;
+
+        padding:35px 25px;
+
+        border-radius:22px;
+
+    }
+
+    .hero-badge{
+
+        font-size:.85rem;
+
+        padding:8px 16px;
+
+    }
+
+    .hero-card h1{
+
+        font-size:2.4rem;
+
+        line-height:1.2;
+
+    }
+
+    .hero-card p{
+
+        font-size:.95rem;
+
+        line-height:1.7;
+
+        margin-bottom:25px;
+
+    }
+
+    .delivery-label{
+
+        font-size:.8rem;
+
+    }
+
+    .delivery-city{
+
+        font-size:1rem;
+
+    }
+
+    .hero-buttons{
+
+        gap:15px;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:100%;
+
+        max-width:300px;
+
+        padding:15px;
+
+    }
+
+    .scroll-indicator{
+
+        display:none;
+
+    }
+
+    .heroSwiper .swiper-pagination{
+
+        bottom:20px !important;
+
+    }
+
+    .hero-trust-panel{
+
+        width:94%;
+
+        padding:18px;
+
+        display:grid;
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:15px;
+
+    }
+
+    .trust-item{
+
+        justify-content:center;
+
+        text-align:center;
+
+        flex-direction:column;
+
+        gap:8px;
+
+    }
+
+}
+
+/*==================================================
+        HERO RESPONSIVE - SMALL MOBILE
+==================================================*/
+
+@media (max-width:480px){
+
+    .hero{
+
+        min-height:850px;
+
+    }
+
+    .hero-card{
+
+        padding:30px 20px;
+
+    }
+
+    .hero-card h1{
+
+        font-size:2rem;
+
+    }
+
+    .hero-card p{
+
+        font-size:.9rem;
+
+    }
+
+    .hero-badge{
+
+        font-size:.8rem;
+
+    }
+
+    .hero-buttons .btn{
+
+        font-size:.95rem;
+
+        padding:14px 18px;
+
+    }
+
+    .hero-trust-panel{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+/*==================================================
+        LARGE DESKTOP
+==================================================*/
+
+@media (min-width:1600px){
+
+    .hero-card{
+
+        width:760px;
+
+        padding:65px;
+
+    }
+
+    .hero-card h1{
+
+        font-size:5.2rem;
+
+    }
+
+    .hero-card p{
+
+        font-size:1.2rem;
+
+    }
+
+}
+/*==================================================
+        VISITING CHIRALA - RESPONSIVE
+==================================================*/
+
+/*=========================================
+            Large Tablets
+=========================================*/
+@media (max-width: 991.98px) {
+
+    .visiting-chirala {
+        padding: 80px 0;
+    }
+
+    .visiting-chirala .row {
+        row-gap: 60px;
+    }
+
+    .section-title {
+        font-size: 2.3rem;
+    }
+
+    .section-description {
+        max-width: 100%;
+    }
+
+    .travel-image {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+/*=========================================
+                Tablets
+=========================================*/
+@media (max-width: 767.98px) {
+
+    .visiting-chirala {
+        padding: 70px 0;
+    }
+
+    .section-tag {
+        font-size: 0.85rem;
+        padding: 8px 16px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        line-height: 1.3;
+        margin-bottom: 18px;
+    }
+
+    .section-description {
+        font-size: 1rem;
+        line-height: 1.8;
+        margin-bottom: 32px;
+    }
+
+    .travel-features {
+        gap: 16px;
+        margin-bottom: 32px;
+    }
+
+    .feature-item {
+        align-items: flex-start;
+    }
+
+    .feature-item i {
+        width: 38px;
+        height: 38px;
+        font-size: 0.95rem;
+    }
+
+    .feature-item span {
+        font-size: 0.96rem;
+        line-height: 1.6;
+    }
+
+    .section-buttons {
+        gap: 14px;
+    }
+
+    .section-buttons .btn {
+        min-width: 180px;
+    }
+
+    .travel-image {
+        border-radius: 20px;
+    }
+
+    .travel-image img {
+        border-radius: 20px;
+    }
+}
+
+/*=========================================
+                Mobile
+=========================================*/
+@media (max-width: 575.98px) {
+
+    .visiting-chirala {
+        padding: 60px 0;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+/*==================================================
+        SHOP BY CATEGORY - RESPONSIVE
+==================================================*/
+
+/*=========================================
+            Laptop (1200px)
+=========================================*/
+@media (max-width:1200px){
+
+    .categories-section{
+        padding:100px 0;
+    }
+
+    .category-grid{
+        gap:22px;
+    }
+
+    .category-large{
+        height:400px;
+    }
+
+    .category-card:not(.category-large){
+        height:240px;
+    }
+
+}
+
+/*=========================================
+            Tablet (992px)
+=========================================*/
+@media (max-width:991.98px){
+
+    .categories-section{
+        padding:90px 0;
+    }
+
+    .section-heading{
+        margin-bottom:50px;
+    }
+
+    .category-grid{
+        grid-template-columns:1fr;
+        gap:22px;
+    }
+
+    .category-large,
+    .category-card:not(.category-large){
+
+        grid-column:auto;
+
+        height:340px;
+
+    }
+
+    .category-overlay{
+        padding:28px;
+    }
+
+    .category-content h3{
+        font-size:2rem;
+    }
+
+}
+
+/*=========================================
+            Mobile (768px)
+=========================================*/
+@media (max-width:767.98px){
+
+    .categories-section{
+        padding:80px 0;
+    }
+
+    .section-heading{
+        margin-bottom:40px;
+    }
+
+    .section-heading h2{
+        font-size:2rem;
+    }
+
+    .section-heading p{
+        font-size:.95rem;
+    }
+
+    .category-large,
+    .category-card:not(.category-large){
+
+        height:280px;
+
+    }
+
+    .category-overlay{
+        padding:24px;
+    }
+
+    .category-content{
+
+        transform:none;
+
+    }
+
+    .category-content h3{
+
+        font-size:1.55rem;
+
+        margin-bottom:8px;
+
+    }
+
+    .category-content p{
+
+        font-size:.9rem;
+
+        margin-bottom:12px;
+
+    }
+
+    .category-link{
+
+        font-size:.95rem;
+
+    }
+
+}
+
+/*=========================================
+            Small Mobile
+=========================================*/
+@media (max-width:575.98px){
+
+    .categories-section{
+        padding:70px 0;
+    }
+
+    .section-badge{
+        font-size:.82rem;
+        padding:8px 16px;
+    }
+
+    .section-heading h2{
+        font-size:1.8rem;
+    }
+
+    .category-large,
+    .category-card:not(.category-large){
+
+        height:240px;
+
+        border-radius:22px;
+
+    }
+
+    .category-card img{
+
+        border-radius:22px;
+
+    }
+
+    .category-overlay{
+
+        padding:20px;
+
+    }
+
+    .category-content h3{
+
+        font-size:1.35rem;
+
+    }
+
+    .category-content p{
+
+        display:none;
+
+    }
+
+    .category-link{
+
+        font-size:.9rem;
+
+    }
+
+}
+    .section-description {
+        font-size: 0.95rem;
+    }
+
+    .feature-item {
+        gap: 12px;
+    }
+
+    .feature-item i {
+        width: 34px;
+        height: 34px;
+        font-size: 0.9rem;
+    }
+
+    .feature-item span {
+        font-size: 0.92rem;
+    }
+
+    .section-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .section-buttons .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .travel-image {
+        margin-top: 10px;
+        border-radius: 18px;
+    }
+
+    .travel-image img {
+        border-radius: 18px;
+    }
+}/*==================================================
+        TOUCH DEVICE OPTIMIZATION
+==================================================*/
+
+@media (hover:none){
+
+    .category-card:hover{
+
+        transform:none;
+
+    }
+
+    .category-card:hover img{
+
+        transform:none;
+
+    }
+
+    .category-card:hover .category-overlay{
+
+        background:
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,.10),
+            rgba(0,0,0,.72)
+        );
+
+    }
+
+}/*==================================================
+        PERFORMANCE
+==================================================*/
+
+.category-card,
+.category-card img,
+.category-overlay{
+
+    will-change:transform;
+
+    backface-visibility:hidden;
+
+}
+
+/*==================================================
+        TODAY'S CATCH CTA BANNER
+==================================================*/
+
+.catch-bottom-banner{
+
+    margin-top:70px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    padding:55px 40px;
+
+    text-align:center;
+
+    border-radius:28px;
+
+    background:linear-gradient(
+        135deg,
+        #0B6E99 0%,
+        #14B8A6 100%
+    );
+
+    color:#FFFFFF;
+
+    box-shadow:
+        0 25px 60px rgba(11,110,153,.20);
+
+}
+
+.catch-bottom-banner::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:220px;
+    height:220px;
+
+    top:-90px;
+    right:-70px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.08);
+
+}
+
+.catch-bottom-banner::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:160px;
+    height:160px;
+
+    bottom:-60px;
+    left:-40px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.06);
+
+}
+
+.catch-bottom-banner>*{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.catch-bottom-banner h3{
+
+    font-size:2rem;
+
+    font-weight:700;
+
+    margin-bottom:16px;
+
+}
+
+.catch-bottom-banner p{
+
+    max-width:650px;
+
+    margin:0 auto 32px;
+
+    font-size:1.05rem;
+
+    line-height:1.8;
+
+    color:rgba(255,255,255,.92);
+
+}
+
+/*==================================================
+        EXPLORE BUTTON
+==================================================*/
+
+.explore-catch-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    padding:18px 36px;
+
+    background:#FFFFFF;
+
+    color:#0B6E99;
+
+    border-radius:50px;
+
+    font-size:1rem;
+
+    font-weight:700;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+.explore-catch-btn i{
+
+    transition:.35s ease;
+
+}
+
+.explore-catch-btn:hover{
+
+    background:#F8FAFC;
+
+    transform:translateY(-4px);
+
+    box-shadow:
+        0 15px 35px rgba(255,255,255,.25);
+
+}
+
+.explore-catch-btn:hover i{
+
+    transform:translateX(6px);
+
+}/*==================================================
+        TODAY'S CATCH RESPONSIVE
+==================================================*/
+
+@media (max-width:991.98px){
+
+    .catch-highlights{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .catch-preview-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+@media (max-width:767.98px){
+
+    .catch-live-bar{
+
+        flex-direction:column;
+
+        gap:16px;
+
+        text-align:center;
+
+        padding:20px;
+
+    }
+
+    .product-filters{
+
+        justify-content:flex-start;
+
+        overflow-x:auto;
+
+        flex-wrap:nowrap;
+
+        padding-bottom:8px;
+
+        scrollbar-width:none;
+
+    }
+
+    .product-filters::-webkit-scrollbar{
+
+        display:none;
+
+    }
+
+    .filter-btn{
+
+        flex:0 0 auto;
+
+    }
+
+    .catch-preview-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .highlight-card{
+
+        padding:22px 16px;
+
+    }
+
+    .preview-card img{
+
+        height:220px;
+
+    }
+
+    .catch-bottom-banner{
+
+        padding:40px 24px;
+
+    }
+
+    .catch-bottom-banner h3{
+
+        font-size:1.6rem;
+
+    }
+
+}
+
+@media (max-width:575.98px){
+
+    .catch-highlights{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .catch-bottom-banner{
+
+        padding:35px 20px;
+
+    }
+
+    .catch-bottom-banner h3{
+
+        font-size:1.4rem;
+
+    }
+
+    .catch-bottom-banner p{
+
+        font-size:.95rem;
+
+    }
+
+    .explore-catch-btn{
+
+        width:100%;
+
+        justify-content:center;
+
+        padding:16px 20px;
+
+    }
+
+}
+/*==================================================
+            OUR PROMISE RESPONSIVE
+==================================================*/
+
+/*=========================================
+                Laptop
+=========================================*/
+@media (max-width:1200px){
+
+    .promise-image{
+        height:560px;
+    }
+
+    .our-promise .section-title{
+        font-size:2.8rem;
+    }
+
+}
+
+/*=========================================
+                Tablet
+=========================================*/
+@media (max-width:992px){
+
+    .our-promise{
+        padding:90px 0;
+    }
+
+    .promise-image{
+        height:500px;
+        margin-bottom:120px;
+    }
+
+    .promise-stats{
+        width:95%;
+        grid-template-columns:repeat(2,1fr);
+        gap:18px;
+    }
+
+    .promise-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+/*=========================================
+                Mobile
+=========================================*/
+@media (max-width:768px){
+
+    .our-promise{
+        padding:70px 0;
+    }
+
+    .our-promise .section-heading{
+        margin-bottom:40px;
+    }
+
+    .our-promise .section-title{
+        font-size:2rem;
+        line-height:1.3;
+    }
+
+    .our-promise .section-description{
+        font-size:1rem;
+        line-height:1.8;
+    }
+
+    .promise-image{
+        height:360px;
+        border-radius:24px;
+        margin-bottom:150px;
+    }
+
+    .image-caption{
+        left:20px;
+        bottom:25px;
+    }
+
+    .image-caption span{
+        font-size:.9rem;
+        padding:10px 18px;
+    }
+
+    .promise-stats{
+
+        position:relative;
+
+        left:0;
+
+        bottom:0;
+
+        transform:none;
+
+        width:100%;
+
+        margin-top:30px;
+
+        display:grid;
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:16px;
+
+        z-index:1;
+
+    }
+
+
+    .stat-item h3{
+        font-size:1.5rem;
+    }
+
+    .stat-item span{
+        font-size:.9rem;
+    }
+
+    .promise-grid{
+        margin-top:40px;
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .promise-card{
+        padding:28px 24px;
+    }
+
+    .promise-button{
+        margin:30px 0 0;
+        text-align:center;
+    }
+
+    .promise-button .btn{
+        width:100%;
+        max-width:340px;
+        justify-content:center;
+    }
+
+}
+
+/*=========================================
+            Small Mobile
+=========================================*/
+@media (max-width:576px){
+
+    .promise-image{
+        height:300px;
+        margin-bottom:130px;
+    }
+
+    .our-promise .section-title{
+        font-size:1.75rem;
+    }
+
+    .promise-stats{
+        grid-template-columns:repeat(2,1fr);
+        gap:14px;
+        margin-top:-45px;
+    }
+
+    .stat-item{
+        padding:18px;
+    }
+
+    .stat-item h3{
+        font-size:1.35rem;
+    }
+
+    .stat-item span{
+        font-size:.85rem;
+    }
+
+    .promise-grid{
+        margin-top:35px;
+    }
+
+    .promise-button .btn{
+        width:100%;
+    }
+
+}
+
+/*==================================================
+            PREMIUM ANIMATIONS
+==================================================*/
+
+.promise-image{
+    overflow:hidden;
+}
+
+.promise-image img{
+    transition:transform 1.2s ease;
+}
+
+.promise-image:hover img{
+    transform:scale(1.05);
+}
+
+.promise-card{
+    transition:
+        transform .35s ease,
+        box-shadow .35s ease;
+}
+
+.promise-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 18px 45px rgba(0,0,0,.12);
+}
+
+.stat-item{
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.stat-item:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 30px rgba(11,110,153,.15);
+}
+/*==================================================
+            HOW TO ORDER RESPONSIVE
+==================================================*/
+
+@media(max-width:992px){
+
+    .order-timeline{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:28px;
+
+    }
+
+    .timeline-line{
+
+        display:none;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .order-timeline{
+
+        grid-template-columns:1fr;
+
+        margin-top:45px;
+
+        gap:26px;
+
+    }
+
+    .order-card{
+
+        padding:35px 28px;
+
+    }
+
+    .order-icon{
+
+        width:68px;
+
+        height:68px;
+
+        font-size:1.7rem;
+
+    }
+
+    .order-card h3{
+
+        font-size:1.3rem;
+
+    }
+
+    .availability-btn{
+
+        width:100%;
+
+    }
+
+}/*==================================================
+        DELIVERY RESPONSIVE
+==================================================*/
+
+@media(max-width:992px){
+
+    .shipping-grid{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .shipping-grid{
+
+        grid-template-columns:1fr;
+
+        gap:25px;
+
+    }
+
+    .shipping-header{
+
+        padding:24px;
+
+    }
+
+    .shipping-list{
+
+        padding:22px;
+
+    }
+
+    .shipping-btn{
+
+        margin:0 22px 22px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .freshness-grid{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:14px;
+
+    }
+
+    .shipping-header h3{
+
+        font-size:1.3rem;
+
+    }
+}
+/*==================================================
+            CLOUD KITCHEN RESPONSIVE
+==================================================*/
+
+@media (max-width:992px){
+
+    .cloud-wrapper{
+
+        display:flex;
+        flex-direction:column;
+
+        gap:40px;
+
+    }
+
+    /* Show image first */
+    .cloud-image{
+
+        order:-1;
+
+        width:100%;
+
+    }
+
+    .cloud-content{
+
+        width:100%;
+
+        height:auto;
+
+        min-height:auto;
+
+    }
+
+    /* Gallery */
+
+    .gallery-main img{
+
+        height:380px;
+
+    }
+
+    .gallery-small{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:15px;
+
+    }
+
+    .small-card img{
+
+        height:150px;
+
+    }
+
+    /* Move floating elements INSIDE */
+
+    .food-rating{
+
+        position:absolute;
+
+        right:20px;
+
+        top:20px;
+
+    }
+
+    .kitchen-badge{
+
+        left:20px;
+
+        top:20px;
+
+        right:auto;
+
+        bottom:auto;
+
+    }
+
+}
+
+@media (max-width:768px){
+
+    .cloud-wrapper{
+
+        gap:30px;
+
+    }
+
+    .gallery-main{
+
+        margin-bottom:15px;
+
+    }
+
+    .gallery-main img{
+
+        height:260px;
+
+    }
+
+    .gallery-small{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:12px;
+
+    }
+
+    .small-card img{
+
+        height:120px;
+
+    }
+
+    .food-rating{
+
+        position:static;
+
+        margin-top:15px;
+
+        width:100%;
+
+        text-align:center;
+
+    }
+
+    .kitchen-badge{
+
+        position:absolute;
+
+        top:15px;
+
+        left:15px;
+
+        padding:10px 16px;
+
+        font-size:.8rem;
+
+    }
+
+    .cloud-buttons{
+
+        flex-direction:column;
+
+        gap:15px;
+
+    }
+
+    .cloud-buttons a{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .cloud-content .section-title{
+
+        font-size:2rem;
+
+    }
+
+}
+/*==================================================
+            RESPONSIVE
+==================================================*/
+
+/*==================================================
+            MOBILE
+==================================================*/
+
+@media(max-width:992px){
+
+    .review-ribbon{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+    .mini-review-card{
+
+        width:300px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .customer-reviews{
+
+        padding:90px 0;
+
+    }
+
+    .customer-reviews .section-title{
+
+        font-size:2.2rem;
+
+    }
+
+    .review-ribbon{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:18px;
+
+    }
+
+    .ribbon-item{
+
+        padding:22px 15px;
+
+    }
+
+    .ribbon-item h3{
+
+        font-size:1.6rem;
+
+    }
+
+    .mini-review-card{
+
+        width:270px;
+
+        padding:24px;
+
+    }
+
+    .review-left{
+
+        animation-duration:30s;
+
+    }
+
+    .review-right{
+
+        animation-duration:30s;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .review-ribbon{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .customer-reviews .section-title{
+
+        font-size:2rem;
+
+    }
+
+    .customer-reviews .section-description{
+
+        font-size:.96rem;
+
+    }
+
+    .mini-review-card{
+
+        width:240px;
+
+        padding:20px;
+
+    }
+
+    .mini-review-card p{
+
+        font-size:.92rem;
+
+    }
+
+    .review-service{
+
+        font-size:.78rem;
+
+        padding:8px 14px;
+
+    }
+
+    .mini-review-card h5{
+
+        font-size:.92rem;
+
+    }
+
+    .reviews-marquee::before,
+    .reviews-marquee::after{
+
+        width:45px;
+
+    }
+
+}
+/*==================================================
+                    RESPONSIVE
+==================================================*/
+
+@media(max-width:992px){
+
+    .faq-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+    .faq-image{
+
+        order:-1;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .faq-section{
+
+        padding:90px 0;
+
+    }
+
+    .faq-question{
+
+        padding:20px;
+
+        font-size:1rem;
+
+    }
+
+    .faq-answer p{
+
+        padding:0 20px 20px;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .faq-floating-card{
+
+        left:15px;
+
+        right:15px;
+
+        bottom:15px;
+
+        text-align:center;
+
+        padding:14px;
+
+    }
+
+    .faq-question{
+
+        gap:15px;
+
+    }
+
+}
+@media(max-width:768px){
+
+    .faq-contact-content{
+
+        padding:50px 25px;
+
+    }
+
+    .faq-contact h3{
+
+        font-size:1.9rem;
+
+    }
+
+    .faq-buttons{
+
+        flex-direction:column;
+
+    }
+
+    .faq-buttons a{
+
+        width:100%;
+
+    }
+
+}
+/*==================================================
+                RESPONSIVE
+==================================================*/
+
+@media(max-width:1100px){
+
+    .footer-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:50px;
+
+    }
+
+    .footer-bottom{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .footer-bottom-right{
+
+        justify-content:center;
+
+    }
+
+    .social-links{
+
+        justify-content:center;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .footer-top{
+
+        padding:70px 0 40px;
+
+    }
+
+    .footer-grid{
+
+        grid-template-columns:1fr;
+
+        gap:40px;
+
+    }
+
+    .footer-column{
+
+        text-align:center;
+
+    }
+
+    .footer-column h4::after{
+
+        left:50%;
+
+        transform:translateX(-50%);
+
+    }
+
+    .footer-description{
+
+        margin:auto auto 25px;
+
+    }
+
+    .footer-trust{
+
+        justify-content:center;
+
+    }
+
+    .footer-contact li{
+
+        justify-content:center;
+
+    }
+
+    .delivery-locations{
+
+        gap:12px;
+
+    }
+
+    .delivery-locations span{
+
+        font-size:.88rem;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .footer-delivery{
+
+        padding:30px 20px;
+
+    }
+
+    .footer-delivery h4{
+
+        font-size:1.3rem;
+
+    }
+
+    .footer-whatsapp{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+    .social-links{
+
+        flex-wrap:wrap;
+
+    }
+
+}
+.main-footer{
+
+    background-size:200% 200%;
+
+    animation:oceanGlow 12s ease infinite;
+
+}
+
+@keyframes oceanGlow{
+
+    0%{
+
+        background-position:0% 50%;
+
+    }
+
+    50%{
+
+        background-position:100% 50%;
+
+    }
+
+    100%{
+
+        background-position:0% 50%;
+
+    }
+
+}/*==================================================
+        CUSTOMER FAVORITES RESPONSIVE
+==================================================*/
+
+/*==============================
+        Large Tablets
+==============================*/
+
+@media (max-width:1200px){
+
+    .product-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:30px;
+
+    }
+
+    .featured-product{
+
+        grid-column:span 2;
+
+    }
+
+}
+
+/*==============================
+        Tablets
+==============================*/
+
+@media (max-width:992px){
+
+    .best-sellers{
+
+        padding:80px 0;
+
+    }
+
+    .section-title{
+
+        font-size:2.3rem;
+
+    }
+
+    .section-description{
+
+        width:90%;
+
+        margin:auto;
+
+    }
+
+    .product-grid{
+
+        grid-template-columns:1fr;
+
+        gap:30px;
+
+    }
+
+    .featured-product{
+
+        grid-column:span 1;
+
+    }
+
+    .featured-product img{
+
+        height:320px;
+
+        object-fit:cover;
+
+    }
+
+    .featured-product .product-content{
+
+        padding:30px;
+
+    }
+
+}
+
+/*==============================
+        Mobile Landscape
+==============================*/
+
+@media (max-width:768px){
+
+    .best-sellers{
+
+        padding:70px 0;
+
+    }
+
+    .section-heading{
+
+        margin-bottom:40px;
+
+    }
+
+    .section-title{
+
+        font-size:2rem;
+
+        line-height:1.3;
+
+    }
+
+    .section-description{
+
+        width:100%;
+
+        font-size:15px;
+
+        line-height:1.8;
+
+    }
+
+    .product-filters{
+
+        display:flex;
+
+        overflow-x:auto;
+
+        gap:12px;
+
+        padding-bottom:10px;
+
+        scrollbar-width:none;
+
+    }
+
+    .product-filters::-webkit-scrollbar{
+
+        display:none;
+
+    }
+
+    .filter-btn{
+
+        white-space:nowrap;
+
+        flex-shrink:0;
+
+        padding:12px 22px;
+
+        font-size:14px;
+
+    }
+
+    .product-grid{
+
+        gap:25px;
+
+    }
+
+    .product-card{
+
+        border-radius:20px;
+
+    }
+
+    .product-card img{
+
+        height:240px;
+
+        object-fit:cover;
+
+    }
+
+    .featured-product img{
+
+        height:260px;
+
+    }
+
+    .product-content{
+
+        padding:22px;
+
+    }
+
+    .product-content h3{
+
+        font-size:1.4rem;
+
+    }
+
+    .product-content p{
+
+        font-size:15px;
+
+        line-height:1.7;
+
+    }
+
+    .product-btn{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+}
+
+/*==============================
+        Mobile Portrait
+==============================*/
+
+@media (max-width:576px){
+
+    .best-sellers{
+
+        padding:60px 0;
+
+    }
+
+    .section-badge{
+
+        font-size:13px;
+
+        padding:8px 18px;
+
+    }
+
+    .section-title{
+
+        font-size:1.8rem;
+
+    }
+
+    .section-description{
+
+        font-size:14px;
+
+    }
+
+    .product-card{
+
+        border-radius:18px;
+
+    }
+
+    .product-card img{
+
+        height:220px;
+
+    }
+
+    .featured-product img{
+
+        height:230px;
+
+    }
+
+    .product-content{
+
+        padding:20px;
+
+    }
+
+    .product-content h3{
+
+        font-size:1.3rem;
+
+    }
+
+    .product-content p{
+
+        font-size:14px;
+
+    }
+
+    .product-status{
+
+        font-size:14px;
+
+    }
+
+    .product-btn{
+
+        font-size:15px;
+
+        padding:14px 20px;
+
+    }
+
+}
+
+/*==============================
+        Small Phones
+==============================*/
+
+@media (max-width:400px){
+
+    .section-title{
+
+        font-size:1.6rem;
+
+    }
+
+    .product-card img{
+
+        height:200px;
+
+    }
+
+    .featured-product img{
+
+        height:210px;
+
+    }
+
+    .product-content{
+
+        padding:18px;
+
+    }
+
+    .product-content h3{
+
+        font-size:1.2rem;
+
+    }
+
+    .product-btn{
+
+        font-size:14px;
+
+    }
+
+}@media(max-width:992px){
+
+.header-actions{
+
+    gap:8px;
+
+}
+
+.catch-btn span,
+.whatsapp-btn span{
+
+    display:none;
+
+}
+
+.catch-btn,
+.whatsapp-btn{
+
+    width:46px;
+
+    height:46px;
+
+    padding:0;
+
+    justify-content:center;
+
+    border-radius:50%;
+
+}
+
+}

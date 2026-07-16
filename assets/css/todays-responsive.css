@@ -1,0 +1,1581 @@
+/*==================================================
+        TODAY'S CATCH HERO RESPONSIVE
+==================================================*/
+
+/*=========================================
+        Laptop (1200px)
+=========================================*/
+
+@media (max-width:1200px){
+
+    .today-hero{
+
+        padding:70px 0 100px;
+
+    }
+
+    .today-hero-wrapper{
+
+        grid-template-columns:1fr 1fr;
+
+        gap:50px;
+
+        min-height:auto;
+
+    }
+
+    .today-content h1{
+
+        font-size:3.4rem;
+
+    }
+
+    .today-content p{
+
+        font-size:1rem;
+
+    }
+
+    .hero-highlights{
+
+        gap:16px;
+
+    }
+
+    .highlight-item{
+
+        padding:18px;
+
+    }
+
+    .today-image img{
+
+        border-radius:24px;
+
+    }
+
+}
+
+
+/*=========================================
+        Tablet (992px)
+=========================================*/
+
+@media (max-width:991.98px){
+
+    .today-hero{
+
+        padding:70px 0;
+
+    }
+
+    .today-hero-wrapper{
+
+        display:flex;
+
+        flex-direction:column;
+
+        text-align:center;
+
+        gap:50px;
+
+    }
+
+    .today-content{
+
+        order:1;
+
+    }
+
+    .today-image{
+
+        order:2;
+
+        width:100%;
+
+        max-width:650px;
+
+        margin:auto;
+
+    }
+
+    .today-content h1{
+
+        font-size:3rem;
+
+    }
+
+    .today-content p{
+
+        max-width:700px;
+
+        margin:auto auto 35px;
+
+    }
+
+    .hero-highlights{
+
+        max-width:700px;
+
+        margin:40px auto;
+
+    }
+
+    .hero-buttons{
+
+        justify-content:center;
+
+    }
+
+    .hero-chip{
+
+        transform:scale(.92);
+
+    }
+
+}
+
+
+/*=========================================
+            Mobile (768px)
+=========================================*/
+
+@media (max-width:767.98px){
+
+    .today-hero{
+
+        padding:45px 0 60px;
+
+    }
+
+    .today-hero::before,
+
+    .today-hero::after{
+
+        display:none;
+
+    }
+
+    .today-hero-wrapper{
+
+        gap:35px;
+
+    }
+
+    .hero-badge{
+
+        font-size:.82rem;
+
+        padding:10px 18px;
+
+        margin-bottom:18px;
+
+    }
+
+    .today-content h1{
+
+        font-size:2.2rem;
+
+        line-height:1.2;
+
+        letter-spacing:-1px;
+
+    }
+
+    .today-content h1 span{
+
+        margin-top:8px;
+
+    }
+
+    .today-content p{
+
+        font-size:.95rem;
+
+        line-height:1.8;
+
+        margin-bottom:28px;
+
+    }
+
+    .hero-highlights{
+
+        grid-template-columns:1fr;
+
+        gap:14px;
+
+        margin:30px 0;
+
+    }
+
+    .highlight-item{
+
+        justify-content:flex-start;
+
+        padding:16px;
+
+        border-radius:18px;
+
+    }
+
+    .highlight-item i{
+
+        width:48px;
+
+        height:48px;
+
+        font-size:1rem;
+
+    }
+
+    .highlight-item span{
+
+        font-size:.92rem;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        gap:14px;
+
+        width:100%;
+
+    }
+
+    .hero-buttons .btn{
+
+        width:100%;
+
+        justify-content:center;
+
+        height:54px;
+
+        font-size:.95rem;
+
+    }
+
+    .today-image{
+
+        max-width:100%;
+
+    }
+
+    .today-image img{
+
+        width:100%;
+
+        border-radius:22px;
+
+    }
+
+    .fresh-badge{
+
+        top:16px;
+
+        left:16px;
+
+        padding:10px 16px;
+
+        font-size:.8rem;
+
+    }
+
+    .hero-floating{
+
+        position:static;
+
+        display:flex;
+
+        flex-direction:column;
+
+        gap:12px;
+
+        margin-top:18px;
+
+    }
+
+    .hero-chip{
+
+        position:relative;
+
+        top:auto;
+
+        left:auto;
+
+        right:auto;
+
+        bottom:auto;
+
+        width:100%;
+
+        justify-content:center;
+
+        padding:14px 18px;
+
+        border-radius:18px;
+
+        transform:none;
+
+    }
+
+}
+
+
+/*=========================================
+        Small Mobile (576px)
+=========================================*/
+
+@media (max-width:575.98px){
+
+    .today-hero{
+
+        padding:35px 0 50px;
+
+    }
+
+    .today-content h1{
+
+        font-size:1.9rem;
+
+    }
+
+    .today-content p{
+
+        font-size:.9rem;
+
+    }
+
+    .hero-badge{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+    .highlight-item{
+
+        padding:14px;
+
+    }
+
+    .highlight-item span{
+
+        font-size:.88rem;
+
+    }
+
+    .hero-buttons .btn{
+
+        height:52px;
+
+        font-size:.9rem;
+
+        padding:0 18px;
+
+    }
+
+    .today-image img{
+
+        border-radius:18px;
+
+    }
+
+    .fresh-badge{
+
+        font-size:.75rem;
+
+    }
+
+    .hero-chip{
+
+        font-size:.82rem;
+
+    }
+
+}
+/*==================================================
+        TODAY STATUS RESPONSIVE
+==================================================*/
+
+/*=========================================
+            Laptop
+=========================================*/
+
+@media (max-width:1200px){
+
+    .today-status{
+
+        margin-top:-35px;
+
+    }
+
+    .status-wrapper{
+
+        gap:18px;
+
+        padding:24px;
+
+    }
+
+    .status-item{
+
+        padding:16px;
+
+    }
+
+}
+
+
+/*=========================================
+            Tablet
+=========================================*/
+
+@media (max-width:991.98px){
+
+    .today-status{
+
+        margin-top:35px;
+
+    }
+
+    .status-wrapper{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:18px;
+
+        padding:22px;
+
+    }
+
+    .status-item{
+
+        justify-content:flex-start;
+
+        padding:18px;
+
+    }
+
+    .status-icon{
+
+        width:52px;
+
+        height:52px;
+
+    }
+
+    .status-content h4{
+
+        font-size:15px;
+
+    }
+
+    .status-content p{
+
+        font-size:13px;
+
+    }
+
+}
+
+
+/*=========================================
+                Mobile
+=========================================*/
+
+@media (max-width:767.98px){
+
+    .today-status{
+
+        margin-top:25px;
+
+        padding:0 0 20px;
+
+    }
+
+    .status-wrapper{
+
+        grid-template-columns:1fr;
+
+        gap:14px;
+
+        padding:18px;
+
+        border-radius:22px;
+
+    }
+
+    .status-item{
+
+        padding:16px;
+
+        border-radius:18px;
+
+        align-items:center;
+
+    }
+
+    .status-item:hover{
+
+        transform:none;
+
+    }
+
+    .status-icon{
+
+        width:48px;
+
+        height:48px;
+
+        min-width:48px;
+
+    }
+
+    .status-icon i{
+
+        font-size:18px;
+
+    }
+
+    .status-content{
+
+        flex:1;
+
+    }
+
+    .status-content h4{
+
+        font-size:15px;
+
+        margin-bottom:3px;
+
+    }
+
+    .status-content p{
+
+        font-size:13px;
+
+        line-height:1.5;
+
+    }
+
+}
+
+
+/*=========================================
+            Small Mobile
+=========================================*/
+
+@media (max-width:575.98px){
+
+    .today-status{
+
+        margin-top:20px;
+
+    }
+
+    .status-wrapper{
+
+        padding:15px;
+
+        border-radius:18px;
+
+    }
+
+    .status-item{
+
+        padding:14px;
+
+        gap:14px;
+
+    }
+
+    .status-icon{
+
+        width:44px;
+
+        height:44px;
+
+    }
+
+    .status-icon i{
+
+        font-size:16px;
+
+    }
+
+    .status-content h4{
+
+        font-size:14px;
+
+    }
+
+    .status-content p{
+
+        font-size:12px;
+
+    }
+
+}
+/*==================================================
+        TODAY PRODUCTS RESPONSIVE
+==================================================*/
+
+/*=========================================
+            Laptop
+=========================================*/
+
+@media (max-width:1200px){
+
+    .today-products{
+
+        padding:100px 0;
+
+    }
+
+    .section-heading{
+
+        margin-bottom:60px;
+
+    }
+
+    .section-title{
+
+        font-size:3rem;
+
+    }
+
+    .section-description{
+
+        max-width:700px;
+
+    }
+
+    .product-toolbar{
+
+        padding:24px;
+
+        gap:25px;
+
+    }
+
+}
+
+
+/*=========================================
+            Tablet
+=========================================*/
+
+@media (max-width:991.98px){
+
+    .today-products{
+
+        padding:90px 0;
+
+    }
+
+    .section-heading{
+
+        margin-bottom:50px;
+
+    }
+
+    .section-title{
+
+        font-size:2.5rem;
+
+        line-height:1.2;
+
+    }
+
+    .section-description{
+
+        font-size:1rem;
+
+        line-height:1.8;
+
+    }
+
+    .product-toolbar{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:24px;
+
+        padding:24px;
+
+    }
+
+    .toolbar-left{
+
+        width:100%;
+
+    }
+
+    .toolbar-left p{
+
+        max-width:100%;
+
+    }
+
+    .product-filters{
+
+        width:100%;
+
+        justify-content:flex-start;
+
+    }
+
+}
+
+
+/*=========================================
+                Mobile
+=========================================*/
+
+@media (max-width:767.98px){
+
+    .today-products{
+
+        padding:70px 0;
+
+    }
+
+    .section-heading{
+
+        margin-bottom:40px;
+
+    }
+
+    .section-badge{
+
+        font-size:.82rem;
+
+        padding:10px 18px;
+
+    }
+
+    .section-title{
+
+        font-size:2rem;
+
+        line-height:1.25;
+
+    }
+
+    .section-description{
+
+        font-size:.95rem;
+
+        line-height:1.8;
+
+        padding:0 10px;
+
+    }
+
+    .product-toolbar{
+
+        padding:20px;
+
+        border-radius:20px;
+
+    }
+
+    .toolbar-title{
+
+        font-size:1.35rem;
+
+    }
+
+    .toolbar-left p{
+
+        font-size:.92rem;
+
+    }
+
+    .product-filters{
+
+        flex-wrap:nowrap;
+
+        overflow-x:auto;
+
+        overflow-y:hidden;
+
+        gap:12px;
+
+        padding-bottom:8px;
+
+        scrollbar-width:none;
+
+        -ms-overflow-style:none;
+
+    }
+
+    .product-filters::-webkit-scrollbar{
+
+        display:none;
+
+    }
+
+    .filter-btn{
+
+        flex:0 0 auto;
+
+        white-space:nowrap;
+
+        padding:13px 18px;
+
+        font-size:.9rem;
+
+    }
+
+    .filter-btn span{
+
+        min-width:24px;
+
+        height:24px;
+
+        font-size:.75rem;
+
+    }
+
+}
+
+
+/*=========================================
+            Small Mobile
+=========================================*/
+
+@media (max-width:575.98px){
+
+    .today-products{
+
+        padding:60px 0;
+
+    }
+
+    .section-title{
+
+        font-size:1.7rem;
+
+    }
+
+    .section-description{
+
+        font-size:.9rem;
+
+    }
+
+    .toolbar-title{
+
+        font-size:1.2rem;
+
+    }
+
+    .toolbar-left p{
+
+        font-size:.88rem;
+
+    }
+
+    .product-toolbar{
+
+        padding:18px;
+
+        border-radius:18px;
+
+    }
+
+    .filter-btn{
+
+        padding:12px 16px;
+
+        font-size:.85rem;
+
+    }
+
+    .filter-btn i{
+
+        font-size:14px;
+
+    }
+
+    .filter-btn span{
+
+        min-width:22px;
+
+        height:22px;
+
+        font-size:.72rem;
+
+    }
+
+}
+/*==================================================
+        PRODUCT GRID RESPONSIVE
+==================================================*/
+
+/*=========================================
+            Large Laptop
+=========================================*/
+
+@media (max-width:1200px){
+
+    .products-grid{
+
+        grid-template-columns:repeat(3,1fr);
+
+        gap:24px;
+
+    }
+
+}
+
+
+/*=========================================
+                Tablet
+=========================================*/
+
+@media (max-width:991.98px){
+
+    .products-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:24px;
+
+    }
+
+}
+
+
+/*=========================================
+                Mobile
+=========================================*/
+
+@media (max-width:767.98px){
+
+    .products-grid{
+
+        display:grid;
+
+        grid-template-columns:1fr;
+
+        gap:22px;
+
+    }
+
+    .product-card{
+
+        width:100%;
+
+        max-width:420px;
+
+        margin:auto;
+
+        border-radius:22px;
+
+    }
+
+    .product-image{
+
+        height:260px;
+
+    }
+
+    .product-image img{
+
+        width:100%;
+
+        height:100%;
+
+        object-fit:cover;
+
+        border-radius:22px 22px 0 0;
+
+    }
+
+    .product-content{
+
+        padding:22px;
+
+    }
+
+}
+
+
+/*=========================================
+            Small Mobile
+=========================================*/
+
+@media (max-width:575.98px){
+
+    .products-grid{
+
+        gap:18px;
+
+    }
+
+    .product-card{
+
+        max-width:100%;
+
+        border-radius:20px;
+
+    }
+
+    .product-image{
+
+        height:230px;
+
+    }
+
+    .product-image img{
+
+        border-radius:20px 20px 0 0;
+
+    }
+
+    .product-content{
+
+        padding:18px;
+
+    }
+
+}
+/*==================================================
+        PRODUCT CARD RESPONSIVE
+==================================================*/
+
+@media (max-width:767.98px){
+
+    .product-card h3{
+
+        font-size:1.45rem;
+
+    }
+
+    .english-name{
+
+        font-size:.92rem;
+
+    }
+
+    .product-rating{
+
+        font-size:14px;
+
+        margin:10px 0;
+
+    }
+
+    .product-benefits{
+
+        display:flex;
+
+        flex-wrap:wrap;
+
+        gap:8px;
+
+        margin:18px 0;
+
+    }
+
+    .product-benefits span{
+
+        font-size:.8rem;
+
+        padding:8px 12px;
+
+    }
+
+    .cleaning-tags{
+
+        gap:8px;
+
+        margin-bottom:20px;
+
+    }
+
+    .cleaning-tags span{
+
+        font-size:.78rem;
+
+        padding:8px 12px;
+
+    }
+
+}
+
+
+/*=========================================
+        Small Mobile
+=========================================*/
+
+@media (max-width:575.98px){
+
+    .product-card h3{
+
+        font-size:1.3rem;
+
+    }
+
+    .english-name{
+
+        font-size:.85rem;
+
+    }
+
+    .product-benefits span{
+
+        font-size:.74rem;
+
+    }
+
+    .cleaning-tags span{
+
+        font-size:.72rem;
+
+    }
+
+}/*==================================================
+        PRODUCT BADGES
+==================================================*/
+
+@media (max-width:767.98px){
+
+    .product-badge,
+
+    .premium-badge{
+
+        font-size:.72rem;
+
+        padding:7px 12px;
+
+        border-radius:30px;
+
+    }
+
+    .premium-badge{
+
+        top:14px;
+
+        right:14px;
+
+    }
+
+    .product-badge{
+
+        top:14px;
+
+        left:14px;
+
+    }
+
+}/*==================================================
+        PRODUCT BUTTON
+==================================================*/
+
+@media (max-width:767.98px){
+
+    .availability-btn{
+
+        width:100%;
+
+        justify-content:center;
+
+        padding:15px 18px;
+
+        font-size:.92rem;
+
+        border-radius:16px;
+
+    }
+
+}
+
+@media (max-width:575.98px){
+
+    .availability-btn{
+
+        font-size:.88rem;
+
+        padding:14px;
+
+    }
+
+}
+/*==================================================
+        TODAY'S CATCH FINAL RESPONSIVE
+==================================================*/
+
+
+/*=========================================
+        FLOATING BUTTONS
+=========================================*/
+
+@media (max-width:991.98px){
+
+    .floating-buttons{
+
+        right:18px;
+
+        bottom:18px;
+
+        gap:12px;
+
+    }
+
+    .floating-btn{
+
+        width:58px;
+
+        height:58px;
+
+        font-size:22px;
+
+    }
+
+}
+
+
+@media (max-width:767.98px){
+
+    .floating-buttons{
+
+        right:15px;
+
+        bottom:15px;
+
+        gap:10px;
+
+        z-index:999;
+
+    }
+
+    .floating-btn{
+
+        width:54px;
+
+        height:54px;
+
+        font-size:20px;
+
+    }
+
+}
+
+
+@media (max-width:575.98px){
+
+    .floating-buttons{
+
+        right:12px;
+
+        bottom:12px;
+
+    }
+
+    .floating-btn{
+
+        width:50px;
+
+        height:50px;
+
+        font-size:18px;
+
+    }
+
+}
+
+
+/*=========================================
+        BACK TO TOP
+=========================================*/
+
+@media (max-width:767.98px){
+
+    .scroll-top{
+
+        right:18px;
+
+        bottom:145px;
+
+        width:50px;
+
+        height:50px;
+
+        font-size:18px;
+
+    }
+
+}
+
+
+@media (max-width:575.98px){
+
+    .scroll-top{
+
+        right:15px;
+
+        bottom:135px;
+
+        width:46px;
+
+        height:46px;
+
+    }
+
+}
+
+
+/*=========================================
+                FAQ
+=========================================*/
+
+@media (max-width:991.98px){
+
+    .faq-section{
+
+        padding:90px 0;
+
+    }
+
+}
+
+
+@media (max-width:767.98px){
+
+    .faq-section{
+
+        padding:70px 0;
+
+    }
+
+    .faq-item{
+
+        border-radius:18px;
+
+        margin-bottom:15px;
+
+    }
+
+    .faq-question{
+
+        padding:20px;
+
+        font-size:16px;
+
+    }
+
+    .faq-answer{
+
+        padding:0 20px 20px;
+
+    }
+
+}
+
+
+@media (max-width:575.98px){
+
+    .faq-section{
+
+        padding:60px 0;
+
+    }
+
+    .faq-question{
+
+        padding:18px;
+
+        font-size:15px;
+
+    }
+
+}
+
+
+/*=========================================
+                FOOTER
+=========================================*/
+
+@media (max-width:991.98px){
+
+    .footer{
+
+        padding-top:80px;
+
+    }
+
+}
+
+
+@media (max-width:767.98px){
+
+    .footer{
+
+        padding-top:70px;
+
+        text-align:center;
+
+    }
+
+    .footer-logo{
+
+        margin:auto;
+
+    }
+
+    .footer-social{
+
+        justify-content:center;
+
+    }
+
+    .footer-links{
+
+        margin-top:35px;
+
+    }
+
+}
+
+
+@media (max-width:575.98px){
+
+    .footer{
+
+        padding-top:60px;
+
+    }
+
+}
+
+
+/*=========================================
+            GENERAL SPACING
+=========================================*/
+
+@media (max-width:767.98px){
+
+    section{
+
+        overflow:hidden;
+
+    }
+
+    .container{
+
+        padding-left:18px;
+
+        padding-right:18px;
+
+    }
+
+}
+
+
+@media (max-width:575.98px){
+
+    .container{
+
+        padding-left:16px;
+
+        padding-right:16px;
+
+    }
+
+}
+
+
+/*=========================================
+        TOUCH DEVICE OPTIMIZATION
+=========================================*/
+
+@media (hover:none){
+
+    .product-card:hover{
+
+        transform:none;
+
+    }
+
+    .highlight-item:hover{
+
+        transform:none;
+
+    }
+
+    .status-item:hover{
+
+        transform:none;
+
+    }
+
+    .filter-btn:hover{
+
+        transform:none;
+
+    }
+
+    .availability-btn:hover{
+
+        transform:none;
+
+    }
+
+    .hero-buttons .btn:hover{
+
+        transform:none;
+
+    }
+
+}
+
+
+/*=========================================
+            SAFE AREA SUPPORT
+=========================================*/
+
+@supports (padding:max(0px)){
+
+    .floating-buttons{
+
+        bottom:max(15px,env(safe-area-inset-bottom));
+
+        right:max(15px,env(safe-area-inset-right));
+
+    }
+
+}
+
+
+/*=========================================
+            PERFORMANCE
+=========================================*/
+
+.product-card,
+
+.product-image,
+
+.product-image img,
+
+.hero-chip,
+
+.highlight-item,
+
+.status-item,
+
+.filter-btn{
+
+    backface-visibility:hidden;
+
+    will-change:transform;
+
+}
